@@ -7,7 +7,7 @@ public class tesr {
 
     public static void main(String[] args) {
         Square3x3 square3x3 = new Square3x3();
-        Boolean[] booleans = new Boolean[9];
+        boolean[] booleans = new boolean[10];
         Arrays.fill(booleans, false);
 
         square3x3.whosThereCol(2,booleans);
