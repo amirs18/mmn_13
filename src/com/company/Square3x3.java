@@ -112,7 +112,8 @@ public class Square3x3 {
     }
 
     /**
-     * @return
+     * checks if all the numbers between 1-9 are present in the Square3x3
+     * @return true if all the numbers between 1-9 are present in the Square3x3
      */
     public boolean allThere() {
         int counter = 0;
@@ -130,8 +131,9 @@ public class Square3x3 {
     }
 
     /**
-     * @param row
-     * @param values
+     * gets a boolean array and a row and changes the array according to the corresponding numbers in the row
+     * @param row a given row inside the Square3x3
+     * @param values a boolean array size 10
      */
     public void whosThereRow(int row, boolean[] values) {
         if (!(row > 2 || row < 0)) {
@@ -146,8 +148,9 @@ public class Square3x3 {
     }
 
     /**
-     * @param col
-     * @param values
+     gets a boolean array and a column and changes the array according to the corresponding numbers in the row
+     * @param col a given column inside the Square3x3
+     * @param values a boolean array size 10
      */
     public void whosThereCol(int col, boolean[] values) {
         if (!(col > 2 || col < 0)) {
